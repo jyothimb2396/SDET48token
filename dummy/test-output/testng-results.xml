@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-31T15:21:50 IST" name="Suite" finished-at="2023-05-31T15:21:50 IST" duration-ms="80">
+    <groups>
+    </groups>
+    <test started-at="2023-05-31T15:21:50 IST" name="Test" finished-at="2023-05-31T15:21:50 IST" duration-ms="80">
+      <class name="Pract1.Demo1">
+        <test-method is-config="true" signature="connectToDatabase()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="connectToDatabase" finished-at="2023-05-31T15:21:50 IST" duration-ms="272" status="FAIL">
+          <exception class="java.sql.SQLSyntaxErrorException">
+            <message>
+              <![CDATA[Unknown database 'tyss']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLSyntaxErrorException: Unknown database 'tyss'
+at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at GenericsBank.DataBaseUtility.connect_To_Database(DataBaseUtility.java:22)
+at GenericsBank.BaseclassUtility.connectToDatabase(BaseclassUtility.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLSyntaxErrorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDatabase -->
+        <test-method is-config="true" signature="disconnectFromDatabase()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="disconnectFromDatabase" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectFromDatabase -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="launchBrowser" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="launchApplication" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test3()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="test3" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <exception class="java.sql.SQLSyntaxErrorException">
+            <message>
+              <![CDATA[Unknown database 'tyss']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLSyntaxErrorException: Unknown database 'tyss'
+at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at GenericsBank.DataBaseUtility.connect_To_Database(DataBaseUtility.java:22)
+at GenericsBank.BaseclassUtility.connectToDatabase(BaseclassUtility.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLSyntaxErrorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="closeApplication" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="launchApplication" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test4()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="test4" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <exception class="java.sql.SQLSyntaxErrorException">
+            <message>
+              <![CDATA[Unknown database 'tyss']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.sql.SQLSyntaxErrorException: Unknown database 'tyss'
+at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at GenericsBank.DataBaseUtility.connect_To_Database(DataBaseUtility.java:22)
+at GenericsBank.BaseclassUtility.connectToDatabase(BaseclassUtility.java:23)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.sql.SQLSyntaxErrorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="closeApplication" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Pract1.Demo1@19e4653c]" started-at="2023-05-31T15:21:50 IST" name="closeBrowser" finished-at="2023-05-31T15:21:50 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Pract1.Demo1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

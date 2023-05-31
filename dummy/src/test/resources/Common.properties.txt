@@ -1,0 +1,12 @@
+url http://rmgtestingserver/domain/Online_Banking_System
+username 210001
+password password
+browser chrome
+mysqlusername root
+mysqlpassword root
+
+
+url1 http://localhost/login.do
+username1 admin
+password1 manager
+browser1 chrome
