@@ -1,7 +1,7 @@
 package NormalBankingPrgm;
 
 
-//first change as a local branch 
+//first change as a local branch in applydebit card then commit changes
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
@@ -12,11 +12,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-//local changes
+
 public class Applydebitcard
 
 {
-	//local brach modification
 	public static void main(String[] args) throws InterruptedException 
 	{
 		//open the browser 
