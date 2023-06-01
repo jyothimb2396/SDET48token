@@ -173,6 +173,7 @@ public class Openandapproveacc
 		 a1.accept();
 		
 		 driver.findElement(By.xpath("//img[@class='logo_img']")).click();
+		//testcase automation is completed
 	}
 
 }
